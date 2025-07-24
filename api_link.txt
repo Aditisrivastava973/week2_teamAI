@@ -1,0 +1,1 @@
+Anyone can access the API with this link - https://anomaly-backend-3xx5.onrender.com/
