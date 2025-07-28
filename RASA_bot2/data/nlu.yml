@@ -1,0 +1,89 @@
+version: "3.1"
+
+nlu:
+
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - good morning
+    - good evening
+    - what's up
+    - yo
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you
+    - talk to you later
+    - catch you later
+
+- intent: ask_bot_info
+  examples: |
+    - who are you?
+    - what can you do?
+    - tell me about yourself
+    - what is your purpose?
+    - are you a real person?
+
+- intent: report_incident
+  examples: |
+    - I got hacked
+    - My account was compromised
+    - I think I have malware
+    - Someone is blackmailing me online
+    - My Instagram was hacked
+    - I was scammed online
+    - I clicked a malicious link
+    - My phone got infected
+    - Someone stole my credentials
+
+- intent: ask_law
+  examples: |
+    - what does section 66C mean?
+    - tell me about Indian cyber laws
+    - explain IT Act
+    - what is the punishment for hacking in India?
+    - is cyberstalking illegal in India?
+    - what does section 67 of IT Act say?
+
+- intent: ask_education
+  examples: |
+    - teach me cybersecurity basics
+    - how can I protect my data online?
+    - give me tips for internet safety
+    - how do I create a strong password?
+    - what are common cyber threats?
+    - what is phishing?
+    - what is cybersecurity?
+    - how do scams work?
+    - what's a firewall?
+    - explain malware
+
+- intent: ask_tech_help
+  examples: |
+    - how to enable 2FA on Instagram?
+    - how to set up a firewall?
+    - help me install antivirus
+    - I need help securing my WiFi
+    - how do I encrypt my files?
+
+- intent: general_question
+  examples: |
+    - Tell me something interesting
+    - What's the weather like?
+    - Sing me a song
+    - How tall is Mount Everest?
+    - Who won the last IPL?
+    - Who is Elon Musk?
+    - Tell me a joke
+    - What is AI?
+    - What's the capital of India?
+
+- intent: nlu_fallback
+  examples: |
+    - jklajsdflkajsd
+    - blabla
+    - asdfasdfsadf

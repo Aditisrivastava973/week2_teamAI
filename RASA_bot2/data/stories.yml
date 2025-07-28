@@ -1,0 +1,36 @@
+version: "3.1"
+
+stories:
+
+- story: greet and ask bot info
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_bot_info
+    - action: utter_bot_info
+
+- story: report a phishing attack
+  steps:
+    - intent: report_incident
+    - action: action_store_incident
+    - action: utter_report_ack
+
+- story: explain IT Act section
+  steps:
+    - intent: explain_law
+    - action: action_explain_law
+
+- story: request cybersecurity education
+  steps:
+    - intent: cybersecurity_education
+    - action: action_cybersecurity_education
+
+- story: get technical help
+  steps:
+    - intent: tech_help
+    - action: action_tech_help
+
+- story: fallback handling
+  steps:
+    - intent: nlu_fallback
+    - action: action_fallback_llm

@@ -1,0 +1,55 @@
+{
+  "type": "MaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "ask_bot_info": 0,
+        "back": 1,
+        "cybersecurity_education": 2,
+        "explain_law": 3,
+        "goodbye": 4,
+        "greet": 5,
+        "nlu_fallback": 6,
+        "out_of_scope": 7,
+        "report_incident": 8,
+        "restart": 9,
+        "session_start": 10,
+        "tech_help": 11
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "action_store_incident": 13,
+        "action_explain_law": 14,
+        "action_cybersecurity_education": 15,
+        "action_tech_help": 16,
+        "action_fallback_llm": 17,
+        "utter_bot_info": 18,
+        "utter_goodbye": 19,
+        "utter_greet": 20,
+        "utter_report_ack": 21
+      },
+      "entities": {},
+      "slots": {
+        "incident_type_0": 0,
+        "incident_description_0": 1
+      },
+      "active_loop": {}
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": 5
+}

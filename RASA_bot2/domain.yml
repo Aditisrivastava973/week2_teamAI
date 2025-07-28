@@ -1,0 +1,42 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - ask_bot_info
+  - report_incident
+  - ask_law
+  - ask_education
+  - ask_tech_help
+  - general_question
+  - nlu_fallback
+
+responses:
+  utter_greet:
+    - text: "Hello! I'm your cybersecurity assistant. How can I help you today?"
+
+  utter_goodbye:
+    - text: "Stay safe online! Goodbye."
+
+  utter_bot_info:
+    - text: "I'm a cybersecurity assistant trained to help with incident reporting, Indian cyber laws, and online safety."
+
+  utter_report_ack:
+    - text: "Thanks for reporting the incident. We’ll help guide you on next steps."
+
+slots:
+  incident_type:
+    type: text
+    mappings:
+      - type: from_text
+  incident_description:
+    type: text
+    mappings:
+      - type: from_text
+
+actions:
+  - action_store_incident
+  - action_explain_law
+  - action_cybersecurity_education
+  - action_tech_help
+  - action_fallback_llm

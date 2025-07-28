@@ -1,0 +1,38 @@
+version: "3.1"
+
+rules:
+- rule: Respond to greeting
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Respond to questions about bot
+  steps:
+  - intent: ask_bot_info
+  - action: utter_bot_info
+
+- rule: Report an incident
+  steps:
+  - intent: report_incident
+  - action: action_store_incident
+  - action: utter_report_ack
+
+- rule: Explain cybersecurity law
+  steps:
+  - intent: explain_law
+  - action: action_explain_law
+
+- rule: Teach cybersecurity
+  steps:
+  - intent: cybersecurity_education
+  - action: action_cybersecurity_education
+
+- rule: Provide technical help
+  steps:
+  - intent: tech_help
+  - action: action_tech_help
+
+- rule: Fallback for unknown or low confidence
+  steps:
+  - intent: nlu_fallback
+  - action: action_fallback_llm

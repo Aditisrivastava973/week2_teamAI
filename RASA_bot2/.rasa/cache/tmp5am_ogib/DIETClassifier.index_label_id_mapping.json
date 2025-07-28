@@ -1,0 +1,8 @@
+{
+  "0": "ask_bot_info",
+  "1": "ask_cyber_help",
+  "2": "ask_cyber_law",
+  "3": "goodbye",
+  "4": "greet",
+  "5": "report_cyber_incident"
+}

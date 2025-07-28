@@ -1,0 +1,10 @@
+{
+  "0": "ask_bot_info",
+  "1": "ask_education",
+  "2": "ask_law",
+  "3": "ask_tech_help",
+  "4": "goodbye",
+  "5": "greet",
+  "6": "nlu_fallback",
+  "7": "report_incident"
+}

@@ -1,0 +1,10 @@
+{
+  "0": "ask_bot_info",
+  "1": "ask_general_question",
+  "2": "explain_law",
+  "3": "fallback",
+  "4": "goodbye",
+  "5": "greet",
+  "6": "report_incident",
+  "7": "thank_you"
+}

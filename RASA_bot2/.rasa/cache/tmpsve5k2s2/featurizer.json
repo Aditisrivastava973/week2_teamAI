@@ -1,0 +1,59 @@
+{
+  "type": "MaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "ask_bot_info": 0,
+        "ask_general_question": 1,
+        "back": 2,
+        "explain_law": 3,
+        "fallback": 4,
+        "goodbye": 5,
+        "greet": 6,
+        "nlu_fallback": 7,
+        "out_of_scope": 8,
+        "report_incident": 9,
+        "restart": 10,
+        "session_start": 11,
+        "thank_you": 12
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "action_store_incident": 13,
+        "action_explain_law": 14,
+        "action_respond_cyber_question": 15,
+        "action_fallback_to_llm": 16,
+        "utter_ask_incident_type": 17,
+        "utter_bot_info": 18,
+        "utter_default": 19,
+        "utter_explain_law": 20,
+        "utter_goodbye": 21,
+        "utter_greet": 22,
+        "utter_thank_you": 23
+      },
+      "entities": {
+        "incident_type": 0
+      },
+      "slots": {
+        "incident_type_0": 0
+      },
+      "active_loop": {}
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": 10
+}
